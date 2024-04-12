@@ -1,0 +1,371 @@
+body {
+  font-family: "barlow", san-serif;
+  color: #516171;
+  line-height: 1.8;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #092032;
+}
+a {
+  color: #092032;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-weight: 700;
+}
+img {
+  width: 100%;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.upper-nav {
+  background-color: #333a73;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.upper-nav p {
+  margin-bottom: 0.5px;
+  display: inline-block;
+  color: #fefbf6;
+  margin-right: 16px;
+}
+.upper-nav i,
+.upper-nav span {
+  vertical-align: middle;
+}
+.social-link a {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fe7a36;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.social-link a:hover {
+  background-color: #333a73;
+  color: #fff;
+}
+#home .social-link a {
+  background-color: #fe7a36;
+  color: white;
+}
+#home .social-link a:hover {
+  background-color: #333a73;
+  color: white;
+}
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "barlow";
+  color: #092032;
+}
+.navbar-nav .nav-link {
+  font-size: 1.2rem !important;
+  font-weight: 700;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fe7a36;
+}
+.navbar-nav .nav-link:hover {
+  margin-top: 2px;
+}
+
+.M {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  color: #fe7a36;
+  font-weight: 800;
+}
+.navbar-brand:hover {
+  color: #ff9900;
+}
+.btn {
+  padding: 5px 15px;
+  font-weight: 500px;
+
+  margin-left: 200px;
+}
+.btn-brand,
+.container .btn {
+  background-color: #fe7a36;
+  color: #fff;
+  width: 100px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.container .btn-light {
+  background-color: #494b4d;
+  padding: 5px;
+}
+.container .btn-light:hover {
+  background-color: #fff;
+  color: grey;
+}
+.container .btn {
+  margin-top: 15px;
+}
+
+.btn-brand:hover {
+  color: #fe7a36;
+  background-color: #fff;
+  border-radius: 4px;
+  border-color: #fe7a36;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+}
+/* #home h1 {
+  margin-left: 50px;
+} */
+#home img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+#home p {
+  width: 53%;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  display: grid;
+  background-color: #fefbf6 !important;
+  place-items: center;
+  color: #fe7a36 !important;
+  margin-top: -30px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  border-radius: 100px !important;
+  cursor: pointer;
+}
+.owl-prev:hover,
+.owl-next:hover {
+  background-color: #fe7a36 !important;
+  color: white !important;
+}
+.owl-prev {
+  left: 0;
+}
+.owl-next {
+  right: 0;
+}
+/* About_Section */
+#about-me {
+  background-color: rgb(215, 212, 212);
+}
+
+#about-me .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1 {
+  flex-basis: 35%;
+}
+.about-col-2 {
+  flex-basis: 60%;
+}
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+.tab-titles {
+  display: flex;
+  column-gap: 20px;
+}
+.tab-links {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links::after {
+  width: 0;
+  content: "";
+  height: 2px;
+  background-color: #fe7a36;
+  left: 0;
+  bottom: -4px;
+  position: absolute;
+  transition: 0.5s;
+}
+.tab-links.activelink::after {
+  width: 60px;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.tab-contents ul li span {
+  color: #fe7a36;
+  font-size: 14px;
+}
+
+.tab-links .btn {
+  padding: 5px 15px;
+  font-weight: 50px;
+
+  margin-left: 10px;
+}
+
+.Exprience,
+.Education,
+.Hobbies {
+  display: none;
+}
+
+/* Skills */
+#skills {
+  background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)),
+    url(/Images/markSemayawi.jpg);
+}
+#skills .display-2,
+#skills p {
+  color: #ffffff;
+}
+#skills .display-2 {
+  font-weight: 600;
+}
+
+/*Project styles */
+.project {
+  position: relative;
+}
+.project .overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(9, 32, 50, 0),
+    rgba(9, 32, 50, 0.8)
+  );
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project .content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 32px;
+}
+.project h1,
+.project h6 {
+  color: white;
+}
+.project h6::before {
+  content: "";
+  width: 24px;
+  height: 2px;
+  display: inline-block;
+  margin-right: 12px;
+  background-color: #fe7a36;
+  vertical-align: middle;
+}
+.project h6 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 10px;
+}
+#project-slider .owl-prev:hover,
+#project-slider .owl-next:hover {
+  background-color: #fe7a36 !important;
+  color: #fff;
+}
+
+#project-slider .owl-prev,
+#project-slider .owl-next {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+/* contact styling */
+.contact-left {
+  flex-basis: 35%;
+}
+.contact-right {
+  flex-basis: 60%;
+}
+.contact-left p {
+  margin-top: 30px;
+}
+.contact-left p i {
+  margin-right: 15px;
+}
+.contact-left .social-icon {
+  margin-top: 30px;
+}
+.contact-left .social-icon a {
+  width: 36px;
+  height: 36px;
+  margin-top: 30px !important;
+  transition: transform 0.5s;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fe7a36;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.contact-left .social-icon a :hover {
+  transform: translateY(-5px);
+  background-color: #333a73;
+  border-radius: 100%;
+  color: white;
+}
+.btn.btn2 {
+  display: inline-block;
+  width: 160px;
+}
+.btn2:hover {
+  background-color: white;
+  color: #fe7a36;
+}
+.contact-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: rgba(9, 32, 50, 0.8);
+  padding: 15px;
+  margin: 15px;
+  font-size: 15px;
+  border-radius: 6px;
+  color: #ffff;
+}
